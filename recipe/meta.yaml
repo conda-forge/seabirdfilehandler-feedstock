@@ -1,6 +1,6 @@
 {% set python_min = "3.12" %}
 {% set name = "seabirdfilehandler" %}
-{% set version = "0.12.5" %}
+{% set version = "0.12.6" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seabirdfilehandler-{{ version }}.tar.gz
-  sha256: f4159c8cf7e71a161b40bb1ac34635c529e4f203241a7b8a96f3c0e9efe90856
+  sha256: 96f38841add5f50abc55692512db63383a39345f5d0097d97f9126c61ceece61
 
 build:
   noarch: python
